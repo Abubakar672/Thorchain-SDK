@@ -1,5 +1,5 @@
 {
-  "name": "multichain-sdk",
+  "name": "thor-multichain-sdk",
   "version": "1.0.1",
   "description": "Javascript SDK for Thorchain",
   "keywords": [
@@ -7,7 +7,7 @@
     "SDK",
     "Typescript"
   ],
-  "author": "skyorion427",
+  "author": "abubakar",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
@@ -38,7 +38,7 @@
     "bitcoinjs-lib": "^5.2.0",
     "cosmos-client": "^0.39.2",
     "ethers": "^5.0.30",
-    "midgard-sdk": "git+https://github.com/skyorion427/midgard-sdk-v2.git",
+    "midgard-sdk": "git+https://github.com/thorswap/midgard-sdk-v1.git",
     "tiny-invariant": "^1.1.0"
   },
   "devDependencies": {
@@ -75,13 +75,21 @@
     ]
   },
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "example": "examples",
+    "lib": "lib"
   },
   "files": [
     "lib"
   ],
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abubakar672/Thorchain-SDK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abubakar672/Thorchain-SDK/issues"
+  },
+  "homepage": "https://github.com/Abubakar672/Thorchain-SDK#readme"
 }
